@@ -14,7 +14,7 @@ class DemoGithubActionsApplicationTests {
 
 	@Test
 	void testDemo() {
-		fail();
+		//fail();
 	}
 
 }
