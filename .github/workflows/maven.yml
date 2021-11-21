@@ -30,3 +30,8 @@ jobs:
       with:
         name: surefire-report
         path: target/surefire-reports
+    - name: Archive jar
+      uses: actions/upload-artifact@v2
+      with:
+        name: artifact
+        path: target/*.jar
